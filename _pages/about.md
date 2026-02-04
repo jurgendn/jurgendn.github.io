@@ -6,51 +6,61 @@ redirect_from:
   - /about/
   - /about.html
 ---
+# Hi there, I'm Jurgen 👋
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+## About Me
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+I'm an AI Engineer at **VietinBank**, one of Vietnam's leading commercial banks, where I develop machine learning applications for credit risk optimization, recommendation systems, and financial modeling. I hold a degree in Applied Mathematics and Informatics from Hanoi University of Science and Technology (HUST).
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+## 🏆 Achievements
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+- 🥉 **Bronze Medal** - Vietnamese Mathematical Olympiad 2017
+- 🏅 **Winner** - Inaugural MLOps Vietnam Marathon 2023
+- 📚 **Published Researcher** - WACV 2024, RIVF 2025
+- 🦠 **National Impact** - Coordinated COVID-19 epidemic modeling for Vietnam's National Steering Committee
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+## 📌 Pinned Projects
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+### [Contrastive Viewpoint-aware Shape Learning for Long-term Person Re-Identification (CVSL)](https://github.com/jurgendn/CVSL_LReID) ⭐ 10
+Research on Person Re-Identification using contrastive viewpoint-aware shape learning
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+### [Random Walk Graph Partitioning - Dynamic Frontier](https://github.com/jurgendn/RWGP-DF)
+RWGP-DF Louvain algorithm implementation for community detection in dynamic and large-scale graphs
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+### [COVID-19 Risk Evaluation for Vietnam](https://github.com/jurgendn/covid19-risk-evaluation)
+Epidemic risk assessment model developed for Vietnam's National Steering Committee
 
-**Markdown generator**
+### [Epidemic Model Simulation Framework](https://github.com/jurgendn/epidemic_model_simulation)
+Interactive simulation models for analyzing epidemic spread and intervention strategies
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+### [Graph Communities Benchmarking Suite](https://github.com/jurgendn/graph-communities-benchmark)
+Performance benchmarking for graph community detection algorithms on public datasets
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+### [Poisson Hidden Markov Models for Over-Dispersed Counts](https://github.com/jurgendn/GPD_HMM_MHNN)
+Advanced probabilistic models modeling over-dispersed count time series with Poisson Hidden Markov Models (PHMMs)
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+## 🛠️ Technical Expertise
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+**Machine Learning & AI**:
+- PyTorch
+- Torch Geometrics
+- Computer Vision
+- Graph Neural Networks
+- Transformer Models
+
+**MLOps & Infrastructure**:
+- Kubernetes
+- Docker
+- CI/CD Pipelines
+- Model Deployment
+- Airflow
+
+**Specializations**: 
+- Person Re-Identification (transformer-based, cross-modal methods)
+- Graph Theory & Community Detection Algorithms
+- Mathematical Optimization & Modeling
+- Financial ML Applications
+
+## 📫 Let's Connect
+
+I'm always interested in collaborating on research projects, especially in computer vision, graph neural networks, and applications of AI in financial services.
