@@ -1,13 +1,11 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "# Hi there, I'm Jurgen 👋"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-# Hi there, I'm Jurgen 👋
-
 ## About Me
 
 I'm an AI Engineer at **VietinBank**, one of Vietnam's leading commercial banks, where I develop machine learning applications for credit risk optimization, recommendation systems, and financial modeling. I hold a degree in Applied Mathematics and Informatics from Hanoi University of Science and Technology (HUST).
