@@ -1,22 +1,65 @@
-*.gem
-*.rbc
-/.config
-/coverage/
-/InstalledFiles
-/pkg/
-/spec/reports/
-/spec/examples.txt
+# .gitignore for Academic Pages / Jekyll site
+# Generated/temporary files, OS and editor files, and vendor bundles
+
+# Jekyll build output
+_site/
+_sits/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ruby / Bundler
+.bundle/
+vendor/bundle/
+/lib/bundler/man/
+
+# Sass / generated files
+.sass-cache/
+assets/css/*.map
+
+# Node / JS
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python virtualenv / cache (used by markdown_generator)
+__pycache__/
+*.py[cod]
+env/
+venv/
+
+# Logs, temp files
+log/
+*.log
+/tmp/
 /test/tmp/
 /test/version_tmp/
-/tmp/
+/coverage/
+/pkg/
 
-# Used by dotenv library to load environment variables.
-# .env
+# OS files
+.DS_Store
+Thumbs.db
 
-# Ignore Byebug command history file.
+# Editors/IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.swp
+
+# Misc
+*.gem
+*.rbc
+/InstalledFiles
+/spec/reports/
+/spec/examples.txt
+/InstalledFiles
+
+# Byebug history
 .byebug_history
 
-## Specific to RubyMotion:
+# RubyMotion/build artifacts
 .dat*
 .repl_history
 build/
@@ -24,33 +67,21 @@ build/
 build-iPhoneOS/
 build-iPhoneSimulator/
 
-## Specific to RubyMotion (use of CocoaPods):
-#
-# We recommend against adding the Pods directory to your .gitignore. However
-# you should judge for yourself, the pros and cons are mentioned at:
-# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
-#
-# vendor/Pods/
-
-## Documentation cache and generated files:
+# Documentation cache and generated files
 /.yardoc/
 /_yardoc/
 /doc/
 /rdoc/
 
-## Environment normalization:
-/.bundle/
-/vendor/bundle
-/lib/bundler/man/
+# Env files (uncomment if used)
+# .env
 
-# for a library or gem, you might want to ignore these files since the code is
-# intended to run in multiple environments; otherwise, check them in:
-# Gemfile.lock
-# .ruby-version
-# .ruby-gemset
-
-# unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
+# rvm
 .rvmrc
 
-# Used by RuboCop. Remote config files pulled in from inherit_from directive.
-# .rubocop-https?--*
+# CocoaPods (judge whether to include vendor/Pods/)
+# vendor/Pods/
+
+# Note: Gemfile.lock and .ruby-version are intentionally not ignored by default.
+# Commit them if you want reproducible builds. Adjust to your workflow.
+
