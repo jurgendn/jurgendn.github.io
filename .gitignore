@@ -85,3 +85,22 @@ build-iPhoneSimulator/
 # Note: Gemfile.lock and .ruby-version are intentionally not ignored by default.
 # Commit them if you want reproducible builds. Adjust to your workflow.
 
+# Ignore the directory for local files during development
+local/
+
+# Ignore the Gemfile that is generated
+Gemfile.lock
+
+# Ignore files created by npm
+node_modules
+package-lock.json
+
+# Ignore the vendor file at root level and bundle for alternative installation
+/vendor/
+.bundle/
+
+# Ignore folders related to IDEs
+.vscode/
+
+# Ignore files created by MacOS
+.DS_Store
