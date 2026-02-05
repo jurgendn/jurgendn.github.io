@@ -9,6 +9,7 @@ venue: 'WACV'
 slidesurl: 
 paperurl: 'https://openaccess.thecvf.com/content/WACV2024/papers/Nguyen_Contrastive_Viewpoint-Aware_Shape_Learning_for_Long-Term_Person_Re-Identification_WACV_2024_paper.pdf'
 bibtexurl: 'http://jurgendn.github.io/files/files/contrastive-viewpoint-aware-shape-learning-for-long-term-person-re-identification.bib'
+codeurl: 'https://github.com/jurgendn/CVSL_LReID/blob/main/README.md'
 citation: 'V. D. Nguyen, K. Khaldi, D. Nguyen, P. Mantini, and S. Shah, “Contrastive viewpoint-aware shape learning for long-term person re-identification,” in Proc. IEEE/CVF Winter Conf. on Applications of Computer Vision (WACV), 2024, pp. 1030–1038, doi: 10.1109/WACV57701.2024.00108.'
 ---
 

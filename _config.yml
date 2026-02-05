@@ -95,14 +95,6 @@ read_more                : "disabled" # if enabled, adds "Read more" links to ex
 talkmap_link             : false      #change to true to add link to talkmap on talks page
 comments:
   provider               : "custom"   # use "custom" to enable Hyvor (site layouts must include Hyvor embed)
-  hyvor:
-    site_id              : "1524" # replace with your Hyvor Site ID (numeric string)
-    language             : "en"    # optional, e.g. "en"
-    async                : true    # whether to load Hyvor script async
-    defer                : false   # whether to defer script execution
-    attributes:
-      # any additional data- attributes to add to the embed div, e.g. data-theme: "dark"
-      # data-theme           : "light"
   disqus:
     shortname            :
   discourse:
