@@ -1,11 +1,35 @@
 ---
 layout: archive
-title: "Research Projects"
+title: "Projects"
 permalink: /research-projects/
 author_profile: true
 ---
 
 {% include base_path %}
-{% for post in site.projects %}
-  {% include archive-single.html %}
-{% endfor %}
+
+<div class="projects-showcase">
+  <p class="projects-showcase__intro">A selection of research and software work, with an emphasis on practical questions, careful evaluation, and reproducible methods.</p>
+
+  {% assign projects = site.projects | sort: "date" | reverse %}
+  {% if projects.size > 0 %}
+    <div class="projects-showcase__grid">
+      {% for project in projects %}
+        <article class="project-card">
+          <div class="project-card__meta">
+            {% if project.type %}<span>{{ project.type }}</span>{% endif %}
+            {% if project.date %}<time datetime="{{ project.date | date_to_xmlschema }}">{{ project.date | date: "%Y" }}</time>{% endif %}
+          </div>
+          <h2 class="project-card__title"><a href="{{ base_path }}{{ project.url }}">{{ project.title }}</a></h2>
+          {% if project.excerpt %}
+            <p>{{ project.excerpt | markdownify | strip_html }}</p>
+          {% else %}
+            <p>{{ project.content | markdownify | strip_html | normalize_whitespace | truncatewords: 32 }}</p>
+          {% endif %}
+          <a class="project-card__link" href="{{ base_path }}{{ project.url }}">View project <span aria-hidden="true">→</span><span class="sr-only">: {{ project.title }}</span></a>
+        </article>
+      {% endfor %}
+    </div>
+  {% else %}
+    <p class="projects-showcase__empty">Projects will appear here soon.</p>
+  {% endif %}
+</div>

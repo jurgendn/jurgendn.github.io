@@ -153,6 +153,90 @@
 
 
 /*
+   Projects showcase
+   ========================================================================== */
+
+.projects-showcase {
+  margin-top: 1.5em;
+}
+
+.projects-showcase__intro {
+  max-width: 44rem;
+  color: var(--global-text-color-light);
+  font-size: $type-size-5;
+  line-height: 1.6;
+}
+
+.projects-showcase__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+  margin-top: 2em;
+
+  @include breakpoint($medium) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.project-card {
+  display: flex;
+  min-height: 15rem;
+  flex-direction: column;
+  padding: 1.5rem;
+  border: 1px solid var(--global-border-color);
+  border-radius: $border-radius;
+  background: var(--global-bg-color);
+  box-shadow: 0 1px 2px rgba(#000, 0.04);
+
+  &:hover {
+    border-color: var(--global-link-color);
+    box-shadow: 0 5px 18px rgba(#000, 0.09);
+  }
+}
+
+.project-card__meta {
+  display: flex;
+  gap: 0.65rem;
+  color: var(--global-text-color-light);
+  font-size: $type-size-7;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.project-card__meta span + time::before {
+  margin-right: 0.65rem;
+  color: var(--global-border-color);
+  content: "/";
+}
+
+.project-card__title {
+  margin: 0.75rem 0 0.65rem;
+  font-size: $type-size-4;
+  line-height: 1.25;
+}
+
+.project-card p {
+  margin: 0;
+  color: var(--global-text-color-light);
+  font-size: $type-size-6;
+  line-height: 1.55;
+}
+
+.project-card__link {
+  margin-top: auto;
+  padding-top: 1.5rem;
+  font-size: $type-size-6;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.project-card__link:hover {
+  text-decoration: underline;
+}
+
+
+/*
    Features
    ========================================================================== */
 

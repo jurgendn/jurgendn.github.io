@@ -1,5 +1,9 @@
-{% if site.url %}
+{%- comment -%}
+  Keep local navigation on the local Jekyll server. Production builds still
+  use the canonical site URL configured in _config.yml.
+{%- endcomment -%}
+{% if jekyll.environment == "production" and site.url %}
   {% assign base_path = site.url | append: site.baseurl %}
 {% else %}
-  {% assign base_path = site.github.url %}
+  {% assign base_path = site.baseurl | default: "" %}
 {% endif %}

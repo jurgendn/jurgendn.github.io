@@ -1,64 +1,51 @@
 ---
 permalink: /
-title: "# Hi there, I'm Jurgen 👋"
+title: "Tien-Dung Nguyen"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
-## About Me
 
-I'm an AI Engineer at **VietinBank**, one of Vietnam's leading commercial banks, where I develop machine learning applications for credit risk optimization, recommendation systems, and financial modeling. I hold a degree in Applied Mathematics and Informatics from Hanoi University of Science and Technology (HUST).
+## About
 
-## 🏆 Achievements
+I am a Senior Data Scientist at **Techcombank** and a Mathematics and Informatics graduate of the HUST Talent Program. My research lies at the intersection of applied mathematics, graph structure, network dynamics, and stochastic processes.
 
-- 🥉 **Bronze Medal** - Vietnamese Mathematical Olympiad 2017
-- 🏅 **Winner** - Inaugural MLOps Vietnam Marathon 2023
-- 📚 **Published Researcher** - WACV 2024, RIVF 2025
-- 🦠 **National Impact** - Coordinated COVID-19 epidemic modeling for Vietnam's National Steering Committee
+I use graphs as a relational language for studying heterogeneous, evolving systems and for building AI methods that operate under uncertainty. Alongside this research, I have five years of experience developing production machine-learning systems in banking and computer vision.
 
-## 📌 Pinned Projects
+## Research direction
 
-### [Contrastive Viewpoint-aware Shape Learning for Long-term Person Re-Identification (CVSL)](https://github.com/jurgendn/CVSL_LReID) ⭐ 10
-Research on Person Re-Identification using contrastive viewpoint-aware shape learning
+Three questions currently guide my work:
 
-### [Random Walk Graph Partitioning - Dynamic Frontier](https://github.com/jurgendn/RWGP-DF)
-RWGP-DF Louvain algorithm implementation for community detection in dynamic and large-scale graphs
+- How can graph communities be updated efficiently as their structure changes over time?
+- How can stochastic processes quantify propagation, risk, and uncertainty on networks?
+- How can graph structure connect heterogeneous modalities while keeping a model's assumptions and limitations explicit?
 
-### [COVID-19 Risk Evaluation for Vietnam](https://github.com/jurgendn/covid19-risk-evaluation)
-Epidemic risk assessment model developed for Vietnam's National Steering Committee
+My current projects approach these questions through dynamic community detection, random-walk refinement, network risk modelling, and graph representation learning for noisy observations.
 
-### [Epidemic Model Simulation Framework](https://github.com/jurgendn/epidemic_model_simulation)
-Interactive simulation models for analyzing epidemic spread and intervention strategies
+## Selected research
 
-### [Graph Communities Benchmarking Suite](https://github.com/jurgendn/graph-communities-benchmark)
-Performance benchmarking for graph community detection algorithms on public datasets
+### [Random-Walk Refinement for Dynamic Community Detection](/research-project/rwgp-df-louvain/)
 
-### [Poisson Hidden Markov Models for Over-Dispersed Counts](https://github.com/jurgendn/GPD_HMM_MHNN)
-Advanced probabilistic models modeling over-dispersed count time series with Poisson Hidden Markov Models (PHMMs)
+RIVF 2025 work extending DF-Louvain with a random-walk-based refinement that can split communities after structural changes when the split improves modularity.
 
-## 🛠️ Technical Expertise
+### [Graph-Based COVID-19 Risk Assessment Model](/research-project/covid19-risk-evaluation-vietnam/)
 
-**Machine Learning & AI**:
-- PyTorch
-- Torch Geometrics
-- Computer Vision
-- Graph Neural Networks
-- Transformer Models
+Markov-chain random-walk risk assessment across approximately 10,600 Vietnamese administrative units, developed while contributing to Vietnam's national COVID-19 response.
 
-**MLOps & Infrastructure**:
-- Kubernetes
-- Docker
-- CI/CD Pipelines
-- Model Deployment
-- Airflow
+### [Contrastive Viewpoint-Aware Shape Learning for Long-Term Person Re-Identification](/research-project/cvsl-long-term-person-re-identification/)
 
-**Specializations**: 
-- Person Re-Identification (transformer-based, cross-modal methods)
-- Graph Theory & Community Detection Algorithms
-- Mathematical Optimization & Modeling
-- Financial ML Applications
+WACV 2024 research on combining pose-graph shape cues, appearance, and viewpoint-aware contrastive learning for cloth-changing person re-identification.
 
-## 📫 Let's Connect
+[Explore all projects](/research-projects/) · [Read my publications](/publications/) · [View my CV](/cv/)
 
-I'm always interested in collaborating on research projects, especially in computer vision, graph neural networks, and applications of AI in financial services.
+## Research record
+
+- **Peer-reviewed work:** WACV 2024 and RIVF 2025.
+- **Current research:** Dynamic and large-scale graph community detection at the Institute of Mathematics, Vietnam Academy of Science and Technology, and graph-based spam detection with HUST.
+- **Applied impact:** Graph-based COVID-19 risk assessment developed while working within Vietnam's National Steering Team during the fourth wave.
+- **Recognition:** Champion, MLOps Marathon 2023; Third Prize, Vietnamese Mathematical Olympiad 2017.
+
+## Contact
+
+[Email](mailto:dungnt.samihust@gmail.com) · [GitHub](https://github.com/jurgendn) · [Google Scholar](https://scholar.google.com/citations?user=PmUg7BkAAAAJ) · [LinkedIn](https://linkedin.com/in/dung-nguyen-tien/) · [ORCID](https://orcid.org/0009-0007-7069-2881)

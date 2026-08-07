@@ -1,41 +1,54 @@
-# .gitignore for Academic Pages / Jekyll site
-# Generated/temporary files, OS and editor files, and vendor bundles
-
-# Jekyll build output
+# Jekyll build output and caches
 _site/
-_sits/
 .jekyll-cache/
 .jekyll-metadata
+.sass-cache/
+.asset-cache/
+.jekyll-assets-cache/
+assets/css/*.map
 
 # Ruby / Bundler
 .bundle/
-vendor/bundle/
+/vendor/
 /lib/bundler/man/
+*.gem
+*.rbc
 
-# Sass / generated files
-.sass-cache/
-assets/css/*.map
+# Keep Gemfile.lock and .ruby-version tracked for reproducible builds.
 
-# Node / JS
+# Node / JavaScript
 node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Python virtualenv / cache (used by markdown_generator)
+# Python environments and caches (used by markdown_generator)
 __pycache__/
 *.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv/
 env/
 venv/
 
-# Logs, temp files
-log/
+# Logs, temporary files, and generated reports
 *.log
 /tmp/
 /test/tmp/
 /test/version_tmp/
 /coverage/
 /pkg/
+/spec/reports/
+/spec/examples.txt
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+local/
+/ECTS Conversion.xlsx
 
 # OS files
 .DS_Store
@@ -48,18 +61,8 @@ Thumbs.db
 *.sublime-project
 *.swp
 
-# Misc
-*.gem
-*.rbc
-/InstalledFiles
-/spec/reports/
-/spec/examples.txt
-/InstalledFiles
-
-# Byebug history
+# Byebug and RubyMotion artifacts
 .byebug_history
-
-# RubyMotion/build artifacts
 .dat*
 .repl_history
 build/
@@ -67,40 +70,11 @@ build/
 build-iPhoneOS/
 build-iPhoneSimulator/
 
-# Documentation cache and generated files
+# Documentation caches and generated files
 /.yardoc/
 /_yardoc/
 /doc/
 /rdoc/
 
-# Env files (uncomment if used)
-# .env
-
 # rvm
 .rvmrc
-
-# CocoaPods (judge whether to include vendor/Pods/)
-# vendor/Pods/
-
-# Note: Gemfile.lock and .ruby-version are intentionally not ignored by default.
-# Commit them if you want reproducible builds. Adjust to your workflow.
-
-# Ignore the directory for local files during development
-local/
-
-# Ignore the Gemfile that is generated
-Gemfile.lock
-
-# Ignore files created by npm
-node_modules
-package-lock.json
-
-# Ignore the vendor file at root level and bundle for alternative installation
-/vendor/
-.bundle/
-
-# Ignore folders related to IDEs
-.vscode/
-
-# Ignore files created by MacOS
-.DS_Store

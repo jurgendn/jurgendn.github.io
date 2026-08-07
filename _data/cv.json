@@ -1,152 +1,212 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Tien-Dung Nguyen",
+    "label": "Machine Learning Researcher",
+    "email": "dungnt.samihust@gmail.com",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://jurgendn.github.io",
+    "summary": "Mathematics and Informatics graduate with research in graph algorithms, stochastic processes on networks, graph machine learning, and representation learning, alongside production ML experience in banking and computer vision.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
+      "city": "Hanoi",
+      "countryCode": "VN",
       "region": ""
     },
     "profiles": [
       {
         "network": "Google Scholar",
         "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "http://orcid.org/yourorcidurl"
+        "url": "https://scholar.google.com/citations?user=PmUg7BkAAAAJ"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "jurgendn",
+        "url": "https://github.com/jurgendn"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "dung-nguyen-tien",
+        "url": "https://linkedin.com/in/dung-nguyen-tien/"
+      },
+      {
+        "network": "ORCID",
+        "username": "0009-0007-7069-2881",
+        "url": "https://orcid.org/0009-0007-7069-2881"
       }
     ]
   },
-  "work": [],
-  "education": [
+  "work": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
+      "company": "Vietnam Technological and Commercial Joint Stock Bank (Techcombank)",
+      "position": "Senior Data Scientist",
+      "website": "",
+      "startDate": "2026-04",
+      "endDate": "present",
+      "summary": "",
+      "highlights": [
+        "Develop recommendation models for the bank-wide Hyper Personalization program.",
+        "Build signature-duplication detection for copy-paste and template-replication forgeries in an AI document-fraud pipeline."
+      ]
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
+      "company": "Vietnam Joint Stock Commercial Bank for Industry and Trade (VietinBank)",
+      "position": "Data Scientist",
+      "website": "",
+      "startDate": "2025-03",
+      "endDate": "2026-04",
+      "summary": "",
+      "highlights": [
+        "Designed a graph-based recommendation system over corporate transaction networks, increasing conversion rate from 0.7% to 3.21%.",
+        "Built MLflow tracking/registry and GPU-enabled Kubernetes MLOps infrastructure."
+      ]
     },
     {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
+      "company": "VMO Holdings Technology Joint Stock Company",
+      "position": "Machine Learning Engineer",
+      "website": "",
+      "startDate": "2023-04",
+      "endDate": "2024-09",
+      "summary": "",
+      "highlights": [
+        "Fine-tuned BERT, T5, and GPT variants for conversation-quality assessment.",
+        "Adapted LLaVA-style models with CLIP-ViT and Swin vision backbones.",
+        "Built retraining and drift-detection pipelines, reducing forecast MAPE from 0.24 to 0.14."
+      ]
+    },
+    {
+      "company": "Grooo International Joint Stock Company",
+      "position": "AI Engineer",
+      "website": "",
+      "startDate": "2021-04",
+      "endDate": "2023-04",
+      "summary": "",
+      "highlights": [
+        "Built a surveillance identity-matching pipeline using RetinaFace and vector databases, reaching 98% internal accuracy.",
+        "Developed eKYC components including OCR, face recognition, anti-spoofing, and graph-based document parsing.",
+        "Implemented GNN-based telephony fraud detection with active learning and continuous graph updates, reaching 96% internal accuracy."
+      ]
     }
   ],
-  "skills": [],
-  "languages": [],
-  "interests": [],
+  "education": [
+    {
+      "institution": "Hanoi University of Science and Technology",
+      "area": "Bachelor in Mathematics and Informatics (Talent Program)",
+      "studyType": "Bachelor",
+      "startDate": "2017",
+      "endDate": "2022",
+      "gpa": "3.28/4.0 (8.2/10)",
+      "courses": [
+        "Numerical Analysis",
+        "Optimization Methods",
+        "Data Structures and Algorithms",
+        "Computation Programming",
+        "Stochastic Models and Applications",
+        "Programming Techniques",
+        "Object-Oriented Programming",
+        "Decision Support System",
+        "System Analysis and Design"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming",
+      "level": "",
+      "keywords": ["Python", "C++"]
+    },
+    {
+      "name": "Machine learning",
+      "level": "",
+      "keywords": ["PyTorch", "PyTorch Geometric", "PyTorch Lightning", "Scikit-learn", "Optuna"]
+    },
+    {
+      "name": "Methods",
+      "level": "",
+      "keywords": ["Graph algorithms", "Graph neural networks", "Stochastic processes", "Markov chains", "Monte Carlo simulation", "Hidden Markov models", "Optimization", "Computer vision", "Representation learning"]
+    },
+    {
+      "name": "MLOps and infrastructure",
+      "level": "",
+      "keywords": ["Docker", "Kubernetes", "MLflow", "RabbitMQ", "Kafka", "Git", "Metabase"]
+    },
+    {
+      "name": "Databases and graph tools",
+      "level": "",
+      "keywords": ["Neo4j", "Qdrant", "MongoDB", "PostgreSQL", "SQL Server", "Redis"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Vietnamese",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "IELTS 6.5"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Research interests",
+      "keywords": ["Random walks on graphs", "Stochastic processes on networks", "Dynamic graph algorithms", "Graph machine learning", "Representation learning", "Computer vision", "Probabilistic modelling"]
+    }
+  ],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Contrastive viewpoint-aware shape learning for long-term person re-identification",
+      "publisher": "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)",
+      "releaseDate": "2024-03-01",
+      "website": "https://openaccess.thecvf.com/content/WACV2024/papers/Nguyen_Contrastive_Viewpoint-Aware_Shape_Learning_for_Long-Term_Person_Re-Identification_WACV_2024_paper.pdf",
+      "summary": "CVSL combines 2D pose-based body-shape cues with appearance features and viewpoint-aware contrastive learning."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "http://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Improving the DF-Louvain Algorithm through Random Walk-Based Refinement",
+      "publisher": "RIVF International Conference on Computing and Communication Technologies (RIVF)",
+      "releaseDate": "2025",
+      "website": "https://github.com/jurgendn/RWGP-DF",
+      "summary": "Random-walk-based refinement for community detection in dynamic and large-scale graphs."
     }
   ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
+  "presentations": [],
   "teaching": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
+      "course": "Python Data Science and Machine Learning",
+      "institution": "PlusPlus Academy",
+      "date": "2021-04-01",
+      "role": "Teaching Assistant",
+      "description": "Taught NumPy, Pandas, Scikit-learn, PyTorch, and TensorFlow to a class of 15 students."
     }
   ],
   "portfolio": [
     {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "name": "Graph Community Detection for Dynamic and Large-Scale Graphs",
+      "category": "Research project",
+      "date": "2025",
+      "url": "https://github.com/jurgendn/RWGP-DF",
+      "description": "Scalable DF-Louvain implementation with random-walk-based refinement."
+    },
+    {
+      "name": "Graph-Based Epidemic Model Simulation",
+      "category": "Research project",
+      "date": "2020",
+      "url": "https://github.com/jurgendn/epidemic_model_simulation",
+      "description": "Graph-based epidemic relationship modelling, PageRank influence analysis, and interactive visualization."
+    },
+    {
+      "name": "Network Model for COVID-19 Risk Evaluation in Vietnam",
+      "category": "Research project",
+      "date": "2021",
+      "url": "https://github.com/jurgendn/covid19-risk-evaluation",
+      "description": "Markov-chain random-walk model for regional outbreak-risk estimation."
+    },
+    {
+      "name": "Poisson Hidden Markov Models for Overdispersed Counts",
+      "category": "Research project",
+      "date": "2020",
+      "url": "https://github.com/jurgendn/GPD_HMM_MHNN",
+      "description": "Poisson HMM implementation for latent-regime modelling of count time series."
     }
   ]
 }

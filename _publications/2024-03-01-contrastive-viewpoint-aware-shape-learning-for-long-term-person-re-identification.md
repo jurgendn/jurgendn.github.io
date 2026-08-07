@@ -3,14 +3,14 @@ title: Contrastive viewpoint-aware shape learning for long-term person re-identi
 collection: publications
 category: conferences
 permalink: /publication/conferences/2024-03-01-contrastive-viewpoint-aware-shape-learning-for-long-term-person-re-identification
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
+excerpt: 'CVSL combines 2D pose-based body-shape cues with appearance features and viewpoint-aware contrastive learning for more robust long-term person re-identification.'
 date: 2024-03-01
 venue: 'WACV'
 slidesurl: 
 paperurl: 'https://openaccess.thecvf.com/content/WACV2024/papers/Nguyen_Contrastive_Viewpoint-Aware_Shape_Learning_for_Long-Term_Person_Re-Identification_WACV_2024_paper.pdf'
 bibtexurl: 'http://jurgendn.github.io/files/files/contrastive-viewpoint-aware-shape-learning-for-long-term-person-re-identification.bib'
 codeurl: 'https://github.com/jurgendn/CVSL_LReID/blob/main/README.md'
-citation: 'V. D. Nguyen, K. Khaldi, D. Nguyen, P. Mantini, and S. Shah, “Contrastive viewpoint-aware shape learning for long-term person re-identification,” in Proc. IEEE/CVF Winter Conf. on Applications of Computer Vision (WACV), 2024, pp. 1030–1038, doi: 10.1109/WACV57701.2024.00108.'
+citation: 'V. D. Nguyen, K. Khaldi, D. Nguyen, P. Mantini, and S. Shah, “Contrastive viewpoint-aware shape learning for long-term person re-identification,” in Proc. IEEE/CVF Winter Conf. on Applications of Computer Vision (WACV), 2024, pp. 1041–1049, doi: 10.1109/WACV57701.2024.00108.'
 ---
 
 This repository contains research code for **CVSL (Contrastive Viewpoint-aware Shape Learning)**, a Long-term Person Re-Identification (LRe-ID) method that improves robustness to **clothing changes** and **viewpoint variations** by combining appearance cues with texture-invariant body shape cues.
