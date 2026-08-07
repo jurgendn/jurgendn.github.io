@@ -11,8 +11,11 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Research Projects"
+  - title: "Projects"
     url: /research-projects/
+
+  - title: "Notes"
+    url: /notes/
 
   - title: "Teaching"
     url: /teaching/

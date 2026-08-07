@@ -1,0 +1,13 @@
+---
+layout: archive
+title: "Notes"
+permalink: /notes/
+author_profile: true
+---
+
+{% include base_path %}
+
+{% assign note_posts = site.posts | where_exp: "post", "post.categories contains 'notes'" %}
+{% for post in note_posts %}
+  {% include archive-single.html %}
+{% endfor %}

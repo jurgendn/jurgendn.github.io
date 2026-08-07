@@ -176,6 +176,7 @@ exclude:
   - config
   - Dockerfile
   - Gemfile
+  - ECTS Conversion.xlsx
   - Gruntfile.js
   - gulpfile.js
   - LICENSE
