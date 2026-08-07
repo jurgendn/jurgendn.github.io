@@ -11,9 +11,11 @@ tags:
 excerpt: "A workload-based HUST credit conversion with course-level detail and country-specific ECTS estimates."
 ---
 
-This page converts my HUST Talent Program in Mathematics and Informatics (K62) transcript into workload-based ECTS estimates. It gives admissions reviewers the hours behind the HUST credits; it does not replace an evaluation by the receiving university.
+This page converts my HUST Talent Program in Mathematics and Informatics (K62) transcript into workload-based ECTS estimates. It gives admissions reviewers the hours behind the HUST credits; it does not replace an evaluation by the receiving university. The official [K62 Talent Program curriculum](https://fami.hust.edu.vn/ctdt-tai-nang-toan-tin-cho-cac-khoa-tu-k62/) is published by HUST's Faculty of Mathematics and Informatics.
 
 The HUST conversion guidance is in [1] and [2], and the K62 curriculum is in [3].
+
+For course descriptions, use HUST FaMI's [English course-outline catalog](https://fami.hust.edu.vn/en/management-information-system-course-outlines/), [Mathematics–Informatics course summaries](https://fami.hust.edu.vn/tomtathocphancntoantin/), and [engineering Mathematics–Informatics course summaries](https://fami.hust.edu.vn/motahocphan_ks_toantin/). These are source catalogs, not a claim that every course has a current public PDF.
 
 ## Baseline calculation
 

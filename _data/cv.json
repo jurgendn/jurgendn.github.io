@@ -3,7 +3,7 @@
     "name": "Tien-Dung Nguyen",
     "label": "Machine Learning Researcher",
     "email": "dungnt.samihust@gmail.com",
-    "phone": "(+84) 39-309-5502",
+    "phone": "",
     "website": "https://jurgendn.github.io",
     "summary": "Mathematics and Informatics graduate with research in graph algorithms, stochastic processes on networks, graph machine learning, and representation learning, alongside production ML experience in banking and computer vision.",
     "location": {
@@ -23,6 +23,16 @@
         "network": "GitHub",
         "username": "jurgendn",
         "url": "https://github.com/jurgendn"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "dung-nguyen-tien",
+        "url": "https://linkedin.com/in/dung-nguyen-tien/"
+      },
+      {
+        "network": "ORCID",
+        "username": "0009-0007-7069-2881",
+        "url": "https://orcid.org/0009-0007-7069-2881"
       }
     ]
   },
@@ -166,7 +176,7 @@
       "institution": "PlusPlus Academy",
       "date": "2021-04-01",
       "role": "Teaching Assistant",
-      "description": "Taught NumPy, Pandas, Scikit-learn, PyTorch, and TensorFlow to a class of 15 students; weekly hours: [confirm]."
+      "description": "Taught NumPy, Pandas, Scikit-learn, PyTorch, and TensorFlow to a class of 15 students."
     }
   ],
   "portfolio": [

@@ -7,18 +7,19 @@ redirect_from:
   - /resume
 ---
 
-Hanoi, Vietnam · (+84) 39-309-5502 · [dungnt.samihust@gmail.com](mailto:dungnt.samihust@gmail.com)<br>
-[GitHub](https://github.com/jurgendn) · [Google Scholar](https://scholar.google.com/citations?user=PmUg7BkAAAAJ) · LinkedIn: [confirm] · ORCID: [confirm]
+[Email](mailto:dungnt.samihust@gmail.com) | [GitHub](https://github.com/jurgendn) | [Google Scholar](https://scholar.google.com/citations?user=PmUg7BkAAAAJ) | [LinkedIn](https://linkedin.com/in/dung-nguyen-tien/) | [ORCID](https://orcid.org/0009-0007-7069-2881)
+
+[Download CV as PDF](/files/cv.pdf)
 
 About Me
 ======
 
-Mathematics and Informatics graduate from the HUST Talent Program with two peer-reviewed international publications in graph algorithms and representation learning: WACV 2024 (CORE A) and RIVF 2025. My research focuses on random-walk algorithms, stochastic processes on networks, and graph machine learning for dynamic systems, alongside five years of experience building production ML systems in banking and computer vision.
+I aim to become an applied-mathematics researcher studying graph structure, dynamics, and stochastic processes. Building on this foundation, I want to use graphs as a common relational language for integrating multimodal data and developing AI systems that can learn and reason over heterogeneous, evolving environments under uncertainty. I bring two peer-reviewed international publications in graph algorithms and representation learning—WACV 2024 (CORE A) and RIVF 2025—alongside five years of experience building production ML systems in banking and computer vision.
 
 Research Interests
 ======
 
-Random walks on graphs · stochastic processes on networks · dynamic and large-scale graph algorithms · graph neural networks · representation learning · computer vision · probabilistic modelling · machine learning for decision systems
+Graph structure and dynamics · stochastic processes and random walks · dynamic and large-scale graph algorithms · graph neural networks · multimodal representation learning · computer vision · probabilistic modelling · machine learning for decision systems under uncertainty
 
 Education
 ======
@@ -105,9 +106,8 @@ Work experience
 Publications
 ======
 
-<ul>{% for post in site.publications reversed %}
-  {% include archive-single-cv.html %}
-{% endfor %}</ul>
+- V. D. Nguyen, K. Khaldi, **D. Nguyen**, P. Mantini, and S. Shah, “Contrastive Viewpoint-aware Shape Learning for Long-term Person Re-Identification,” *IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)*, 2024, pp. 1030–1038. [Paper](https://openaccess.thecvf.com/content/WACV2024/papers/Nguyen_Contrastive_Viewpoint-Aware_Shape_Learning_for_Long-Term_Person_Re-Identification_WACV_2024_paper.pdf) · [Code](https://github.com/jurgendn/CVSL_LReID)
+- D. H. Do, **D. Nguyen**, and T. H. D. Phan, “Improving the DF-Louvain Algorithm through Random Walk-Based Refinement,” *RIVF International Conference on Computing and Communication Technologies*, 2025, pp. 932–937. [DOI](https://doi.org/10.1109/RIVF68649.2025.11365046) · [Code](https://github.com/jurgendn/RWGP-DF)
 
 Google Scholar: 49 citations, h-index 1 (accessed 2026-05-15).
 
@@ -125,13 +125,13 @@ Teaching Experience
 
 **Teaching Assistant** (part-time), PlusPlus Academy, Dong Da, Hanoi · Apr 2021–Oct 2021
 
-- Taught Python data-science and machine-learning libraries, including NumPy, Pandas, Scikit-learn, PyTorch, and TensorFlow, to a class of 15 students for [confirm hours]/week.
+- Taught Python data-science and machine-learning libraries, including NumPy, Pandas, Scikit-learn, PyTorch, and TensorFlow, to a class of 15 students.
 - Guided students through algorithm implementation and evaluated final machine-learning and computer-vision projects.
 
 Awards, Honors & Activities
 ======
 
-- **Third Prize**, Vietnamese Mathematical Olympiad (VMO), 2017 — awarded by the Ministry of Education and Training. Nationwide competition among provincial selective teams; number of contestants/selection ratio: [confirm].
+- **Third Prize**, Vietnamese Mathematical Olympiad (VMO), 2017 — awarded by the Ministry of Education and Training.
 - **Champion**, MLOps Marathon, 2023 — national MLOps competition organized by Open Factor Foundation; grand prize: 100,000,000 VND, among 121 opening-phase entrants.
   - Designed the serving architecture for the five-person team: separated API and model-worker processes, added Redis caching, distributed inference with RabbitMQ and Celery, and optimized JSON serialization/deserialization for 95th-percentile latency targets.
   - Scoring combined model accuracy (45%), system performance (45%), and drift detection (10%) across three progressive data-challenge phases.
